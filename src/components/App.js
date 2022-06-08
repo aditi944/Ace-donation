@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Routes } from "react-router-dom
 import Dashboard from "./Dashboard"
 import Login from "./Login"
 import PrivateRoute from "./PrivateRoute"
-import ForgotPassword from "./ForgotPassword"
+import ForgotPassword from "./ForgetPassword"
 import UpdateProfile from "./UpdateProfile"
 
 function App() {
