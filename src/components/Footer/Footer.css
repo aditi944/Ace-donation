@@ -1,0 +1,151 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #293462;
+    width: 100vw;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .Footer .FooterElementLeft {
+    background-color: #293462;
+  }
+  
+  .Footer .FooterElementLeft .clubInfo .address {
+    color: #f5b921;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    margin: 20px;
+  }
+  
+  .Footer .FooterElementLeft .clubInfo .name {
+    color: #f5b921;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+    /* text-align: center; */
+    font-weight: 500;
+    margin: 20px;
+    margin-left: 30px;
+  }
+
+  .Footer .FooterElementRight{
+    margin-top: -10%;
+  }
+  .Footer .FooterElementRight .contact {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #f5b921;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-right: 80px;
+  }
+  .Footer .FooterElementRight .connectAt {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+  
+  .Footer .FooterElementRight .connectAt .icons {
+    width: 45px;
+    height: 45px;
+    margin: 0 10px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .Footer .FooterElementRight .connectAt .icons:hover {
+    transform: scale(0.9);
+  }
+  
+  .Copyright {
+    background: #293462;
+    color: rgb(190, 190, 190);
+    margin: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  @media (max-width: 1024px) {
+    .Footer {
+      flex-flow: wrap;
+    }
+  
+    .Footer .FooterElementLeft .middle {
+      flex-flow: wrap;
+    }
+  
+    .Footer .FooterElementRight .connectAt {
+      display: flex;
+      flex-direction: row-reverse;
+      /* justify-content: space-around; */
+      align-items: center;
+      width: 90vw;
+      height: fit-content;
+      margin-left: 16px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .big {
+      width: 204px;
+      height: 204px;
+    }
+    .Footer .FooterElementLeft .clubInfo .address {
+      font-size: 11px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      text-align: left;
+    }
+    .Footer .FooterElementRight .contact {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .Footer .FooterElementRight .connectAt {
+    display: flex;
+    flex-direction: row;
+    }
+  .Copyright{
+    font-size: 11px;
+    margin: 1px;
+  }
+    .Footer .FooterElementLeft .clubInfo .name {
+      font-size: 30px;
+      margin-top: 0px;
+      text-align: left;
+    }
+  
+    .Footer .FooterElementLeft .middle .first {
+      margin: 0px 100px 0px 20px;
+    }
+  
+    .Footer .FooterElementRight .connectAt {
+      margin-right: 0px;
+    }
+  
+    .Footer .FooterElementRight .connectAt .icons {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .Footer .FooterElementMiddle p {
+      padding: 6px 22px;
+      margin: 0px 50px 40px 0px;
+    }
+  }
